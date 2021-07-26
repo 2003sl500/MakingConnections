@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Profile Page" />
+    <title>Profile Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Start - Navigation Bar -->
+
+      <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" onclick="editProfile()" class="active" id="second"
+              >My Profile</a
+            >
+          </li>
+          <li><a href="#">Find Connections</a></li>
+          <li><button class="btn">Sign Out</button></li>
+        </ul>
+      </div>
+
+      <!-- End - Navigation Bar -->
+
+      <!-- Start - Personal Info - Person -->
+
+      <div class="mainContent">
+        <div class="personalInfo">
+          <div class="person">
+            <div id="top">
+              <img src="images/jane-m.jpg" alt="jane image" id="logo" />
+            </div>
+
+            <div id="bottom">
+              <h1 id="changeName">Jane Doe</h1>
+              <div id="location">
+                <img src="icons/map-marker.png" alt="Map Marker" />
+                <p>Seattle</p>
+              </div>
+
+              <div id="para">
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
+              </div>
+              <div id="gear">
+                <img src="icons/gear.png" alt="gear image" />
+                <p>edit profile</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- End - Personal Info - Person -->
+
+          <!-- Start - Personal Info - Education -->
+
+          <div class="education">
+            <div class="educName">
+              <p>Education</p>
+            </div>
+            <div class="educPara">
+              <p id="first">Coding Dojo - Full Stack Bootcamp</p>
+              <p id="second">Dec 2019 - Mar 2020</p>
+              <p id="third">Triple black belt in Python, MERN, and C#</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- End - Personal Info - Education -->
+
+        <!-- Start - Connections - Requests -->
+
+        <div class="connDiv">
+          <div class="connections">
+            <div class="requests">
+              <div class="connReqHeader">
+                <p id="requestsId">2</p>
+                <p id="requestsId2">Connection Requests</p>
+              </div>
+              <div class="people">
+                <div id="todd">
+                  <img
+                    src="images/todd-s.jpg"
+                    alt="todd image"
+                    id="toddImage"
+                  />
+                  <p>Todd E</p>
+                  <img
+                    src="icons/accept-circle.png"
+                    alt="Accept icon"
+                    id="toddAccept"
+                    onclick="yourConnections()"
+                  />
+                  <img
+                    src="icons/close-circle.png"
+                    alt="Close icon"
+                    id="toddClose"
+                    onclick="closeRequest('todd')"
+                  />
+                </div>
+
+                <div id="phil">
+                  <img
+                    src="images/phil-s.jpg"
+                    alt="phil image"
+                    id="philImage"
+                  />
+                  <p>Phil K</p>
+                  <img
+                    src="icons/accept-circle.png"
+                    alt="Accept icon"
+                    id="philAccept"
+                    onclick="yourConnections()"
+                  />
+                  <img
+                    src="icons/close-circle.png"
+                    alt="Close icon"
+                    id="philClose"
+                    onclick="closeRequest('phil')"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End - Connections - Requests -->
+
+          <!-- Start - Connections - Your Connections -->
+
+          <div class="yourConnections">
+            <div class="yourConnHeader">
+              <p id="connId">500<span>+</span></p>
+              <p id="connId2">Your Connections</p>
+            </div>
+            <div class="connPeople">
+              <div id="adrian">
+                <img
+                  src="images/adrien-s.jpg"
+                  alt="adrien image"
+                  id="adrianImage"
+                />
+                <p>Adrian D</p>
+              </div>
+              <div id="anne">
+                <img src="images/anne-s.jpg" alt="anne image" id="anneImage" />
+                <p>Anne J</p>
+              </div>
+              <div id="alayne">
+                <img
+                  src="images/alayne-s.jpg"
+                  alt="alayne image"
+                  id="alayneImage"
+                />
+                <p>Alayne T</p>
+              </div>
+              <div id="arry">
+                <img src="images/arry-s.jpg" alt="arry image" id="arryImage" />
+                <p>Arry Y</p>
+              </div>
+            </div>
+          </div>
+          <div id="more">
+            <p>View More</p>
+          </div>
+        </div>
+
+        <!-- End - Connections - Your Connections -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

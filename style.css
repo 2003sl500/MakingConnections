@@ -1,0 +1,303 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Start - Navigation Bar */
+
+.nav {
+  background-color: black;
+  width: 100%;
+  display: flex;
+}
+
+.nav-links {
+  width: 78%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-title {
+  color: whitesmoke;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+li {
+  margin-left: 16px;
+  list-style-type: none;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+#second {
+  font-weight: 900;
+}
+
+button {
+  background-color: rgb(4, 157, 177);
+  color: whitesmoke;
+  width: 75px;
+  height: 27px;
+  margin-left: 70px;
+  border: 2px black solid;
+}
+
+/* End - Navigation Bar */
+/* Start - PersonalInfo - User Card */
+
+.mainContent {
+  display: flex;
+}
+
+.personalInfo {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#top {
+  height: 66px;
+  background-color: rgb(4, 157, 177);
+}
+
+#top img {
+  height: 65px;
+  margin-top: 34px;
+  margin-left: 22px;
+}
+
+#bottom {
+  height: 170px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 2px solid rgb(170, 166, 166);
+}
+
+#location {
+  display: flex;
+  margin-top: 5px;
+}
+
+#location img {
+  height: 13px;
+  margin-top: 4px;
+  margin-left: 22px;
+}
+
+#logo {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 4px;
+  border-radius: 50%;
+}
+
+#location p {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-left: 18px;
+}
+
+#para {
+  margin-top: 6px;
+  margin-left: 18px;
+}
+
+#gear {
+  display: flex;
+  margin-top: 5px;
+}
+
+#gear img {
+  height: 13px;
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+#gear p {
+  margin-bottom: 5px;
+  margin-top: 7px;
+  margin-left: 8px;
+  color: rgb(0, 64, 148);
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* End - PersonalInfo - User Card */
+
+/* Start - PersonalInfo - Education */
+
+.educName {
+  background-color: rgb(75, 75, 75);
+  margin-top: 20px;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.educName p {
+  margin-left: 8px;
+}
+
+.educPara {
+  height: 70px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 2px solid rgb(170, 166, 166);
+}
+
+.educPara p {
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.educPara #first {
+  font-size: 16px;
+}
+
+.educPara #second {
+  font-size: 12px;
+  color: gray;
+}
+
+.educPara #third {
+  font-size: 12px;
+}
+
+/* End - PersonalInfo - Education */
+
+/* Start - Connection - Requests*/
+
+.connDiv {
+  width: 180px;
+  margin-left: 20px;
+}
+
+.connReqHeader,
+.yourConnHeader {
+  background-color: rgb(75, 75, 75);
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 10px;
+  display: flex;
+}
+
+#requestsId,
+#connId {
+  text-align: center;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+}
+
+#requestsId2 {
+  margin-left: 15px;
+  margin-top: 6px;
+}
+
+#connId2 {
+  margin-left: 25px;
+  margin-top: 6px;
+}
+
+.connDiv img {
+  height: 22px;
+}
+
+#todd,
+#phil,
+#adrian,
+#anne,
+#alayne,
+#arry,
+#more {
+  display: flex;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+#todd,
+#phil {
+  margin-top: 15px;
+}
+
+#toddImage,
+#philImage,
+#adrianImage,
+#anneImage,
+#alayneImage,
+#arryImage {
+  margin-left: 3px;
+  margin-right: 10px;
+  margin-top: 3px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.people,
+.connPeople {
+  height: 95px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 2px solid rgb(170, 166, 166);
+}
+
+.connPeople {
+  height: 130px;
+}
+
+#toddAccept {
+  margin-left: 34px;
+}
+
+#toddClose {
+  margin-left: 10px;
+}
+
+#philAccept {
+  margin-left: 40px;
+}
+
+#philClose {
+  margin-left: 10px;
+}
+
+#more {
+  height: 30px;
+  width: 176px;
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid rgb(170, 166, 166);
+}
+
+#more p {
+  color: rgb(0, 64, 148);
+  padding: 5px;
+  text-decoration: underline;
+  font-size: 14px;
+}
